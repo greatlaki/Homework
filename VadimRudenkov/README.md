@@ -20,7 +20,7 @@ Input: ['red', 'white', 'black', 'red', 'green', 'black']
 Output: ['black', 'green', 'red', 'white', 'red']
 ```
 
-### Task 1.4
+### Task 1.3
 Create a program that asks the user for a number and then prints out a list of all the [divisors](https://en.wikipedia.org/wiki/Divisor) of that number.
 Examples:
 ```
@@ -28,10 +28,10 @@ Input: 60
 Output: {1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60}
 ```
 
-### Task 1.5
+### Task 1.4
 Write a Python program to sort a dictionary by key.
 
-### Task 1.6
+### Task 1.5
 Write a Python program to print all unique values of all dictionaries in a list.
 Examples:
 ```
@@ -39,7 +39,7 @@ Input: [{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII":"S00
 Output: {'S005', 'S002', 'S007', 'S001', 'S009'}
 ```
 
-### Task 1.7
+### Task 1.6
 Write a Python program to convert a given tuple of positive integers into an integer. 
 Examples:
 ```
@@ -48,7 +48,7 @@ Output: 1234
 ```
 
 
-### Task 1.8
+### Task 1.6
 Write a program which makes a pretty print of a part of the multiplication table.
 Examples:
 ```
@@ -64,5 +64,5 @@ Output:
 4	12	16	20	24	28
 ```
 
-
+ Finished: Task 1.2, Task 1.3, Task 1.6
 
