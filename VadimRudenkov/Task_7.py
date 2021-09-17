@@ -5,12 +5,12 @@ Input: (1, 2, 3, 4)
 Output: 1234
 '''
 
-my_input = (1, 2, 3, 4)
 
-
-def convert_int(something:tuple) -> str:
-    convert = ''.join(str(x) for x in something)
+def main():
+    my_input = (1, 2, 3, 4)
+    convert = ''.join(str(x) for x in my_input)
     return convert
 
 
-print(convert_int(my_input))
+if __name__ == "__main__":
+    main()

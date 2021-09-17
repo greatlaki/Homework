@@ -6,13 +6,12 @@ Input: ['red', 'white', 'black', 'red', 'green', 'black', 'red']
 Output: ['black', 'green', 'red', 'white', 'red']
 '''
 
-my_input = input("Enter: ")
 
-
-def unique_sorted(something:str) -> None:
-    words = [word for word in something.split(",")]
+def main():
+    my_input = 'red, white, black, red, green, black, red'
+    words = [word for word in my_input.split(",")]
     print(",".join(sorted(list(set(words)))))
 
 
-print(unique_sorted(my_input))
-
+if __name__ == "__main__":
+    main()

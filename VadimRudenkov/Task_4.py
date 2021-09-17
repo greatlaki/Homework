@@ -7,16 +7,17 @@ Input: 60
 Output: {1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60}
 '''
 
-my_input = int(input("Enter: "))
 
-
-def divisor_list(something:int) -> list:
-    list_range = list(range(1, something + 1))
+def main():
+    my_input = 60
+    list_range = list(range(1, my_input + 1))
     divisorList = []
-    for number in listRange:
-        if something % number == 0:
+    for number in list_range:
+        if my_input % number == 0:
             divisorList.append(number)
     return divisorList
 
 
-print(divisor_list(my_input))
+if __name__ == "__main__":
+    main()
+

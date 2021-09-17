@@ -15,19 +15,24 @@ Output:
 4	12	16	20	24	28
 '''
 
-a = 2
-b = 4
-c = 3
-d = 7
+def main():
+    a = 2
+    b = 4
+    c = 3
+    d = 7
 
-print(end="\t")
-for col in range(c, d + 1):
-    print(col, end="\t")
-print()
-for row in range(a, b + 1):
-    print(row, end="\t")
+    print(end="\t")
     for col in range(c, d + 1):
-        print(row * col, end="\t")
+        print(col, end="\t")
     print()
+    for row in range(a, b + 1):
+        print(row, end="\t")
+        for col in range(c, d + 1):
+            print(row * col, end="\t")
+        print()
+
+
+if __name__ == '__main__':
+    main()
 
 

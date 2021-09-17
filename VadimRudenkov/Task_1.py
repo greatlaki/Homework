@@ -1,15 +1,17 @@
 ''' Task 1.1
 Write a Python program to calculate the length of a string without using the `len` function.
+Examples:
+
+Input: Oh, it is python
+Output: 16
 '''
 
-my_input = input('Enter: ')
-
-
-def calculate_len(something:str) -> int:
+def main():
+    my_input = 'Oh, it is python'
     counter = 0
-    for i in something:
+    for i in my_input:
         counter += 1
     return counter
 
-
-print(calculate_len(my_input))
+if __name__ == "__main__":
+    main()
